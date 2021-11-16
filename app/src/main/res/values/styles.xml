@@ -11,10 +11,26 @@
         <item name="android:background">@drawable/buttonblue</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
     <style name="GrayButton" parent="BlueButton">
         <item name="android:background">@drawable/buttongray</item>
+    </style>
+
+    <style name="AppEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edittextback</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="RoundCard">
+        <item name="android:background">@drawable/cardback</item>
+    </style>
+
+    <style name="AppTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
     </style>
 
     <style name="AppNavBar" parent="Widget.Design.BottomNavigationView">
